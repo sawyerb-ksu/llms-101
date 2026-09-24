@@ -10,7 +10,7 @@ config, sample documents, and the exercises.
 ```
 .
 ├── models.json              # Pi config → points at K-State Libraries GPT
-├── sample-docs/             # Task C: documents to read and summarize
+├── sample-docs/             # Tasks C & E: documents to summarize, CSVs to analyze
 ├── early-finishers/         # Extra library tasks from the "Not just for code" slide
 └── skill-audit/             # Section 4: read a suspicious skill, then recreate it safely
 ```
@@ -144,6 +144,31 @@ Check every one:
 
 Note which are real, which are close-but-wrong, and which don't exist at all. Be ready to share
 one with the room.
+
+## Task E — Work with a data table (5 min)
+
+`sample-docs/` also has two CSVs:
+
+- `study-room-bookings-fall-2026.csv`: 120 bookings of the new second-floor study rooms.
+- `database-usage-fy2026.csv`: monthly searches and downloads for 12 subscription databases, with
+  annual cost.
+
+Pick one and ask:
+
+```
+Read database-usage-fy2026.csv. Total the downloads for each database for the year, then
+work out cost per download. Show a markdown table sorted from worst value to best, and tell me
+which database you would review for cancellation and why.
+```
+
+```
+Read study-room-bookings-fall-2026.csv. Which rooms get the most booked hours, which day of the
+week is busiest, and what share of bookings were no-shows? Save the answers to room-report.md.
+```
+
+**Check its math.** Open the CSV in Excel or Google Sheets and total one database or one room
+yourself. Did the model do the arithmetic in its head, or did it write and run a script? Ask it
+which. When the numbers matter, ask it to use a script.
 
 **Finished early?** Run Task D again with a different model (`/model`) and compare, or try
 something in [`early-finishers/`](early-finishers/).

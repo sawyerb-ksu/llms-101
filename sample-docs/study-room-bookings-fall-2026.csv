@@ -1,0 +1,121 @@
+booking_id,room,room_capacity,date,weekday,start_time,end_time,hours,group_size,booked_by,purpose,checked_in
+SR-1001,Hale 213,6,2026-08-24,Monday,18:00,20:00,2,5,Undergraduate,Group project,yes
+SR-1002,Hale 218,8,2026-08-24,Monday,20:00,21:00,1,8,Undergraduate,Study session,no
+SR-1003,Hale 210,4,2026-08-25,Tuesday,10:00,12:00,2,2,Undergraduate,Meeting,yes
+SR-1004,Hale 220,12,2026-08-25,Tuesday,15:00,16:00,1,9,Staff,Study session,yes
+SR-1005,Hale 211,4,2026-08-25,Tuesday,16:00,17:00,1,4,Faculty,Group project,yes
+SR-1006,Hale 213,6,2026-08-25,Tuesday,16:00,18:00,2,3,Undergraduate,Presentation practice,yes
+SR-1007,Hale 212,4,2026-08-25,Tuesday,17:00,19:00,2,3,Graduate,Exam review,yes
+SR-1008,Hale 213,6,2026-08-25,Tuesday,17:00,18:00,1,6,Undergraduate,Study session,yes
+SR-1009,Hale 221,12,2026-08-25,Tuesday,17:00,19:00,2,12,Staff,Group project,yes
+SR-1010,Hale 214,6,2026-08-25,Tuesday,18:00,19:00,1,5,Undergraduate,Exam review,yes
+SR-1011,Hale 214,6,2026-08-26,Wednesday,12:00,14:00,2,3,Undergraduate,Group project,yes
+SR-1012,Hale 212,4,2026-08-26,Wednesday,17:00,19:00,2,4,Undergraduate,Tutoring,yes
+SR-1013,Hale 216,6,2026-08-26,Wednesday,17:00,18:00,1,4,Staff,Tutoring,yes
+SR-1014,Hale 214,6,2026-08-26,Wednesday,20:00,21:00,1,5,Undergraduate,Tutoring,yes
+SR-1015,Hale 213,6,2026-08-27,Thursday,12:00,13:00,1,6,Graduate,Meeting,yes
+SR-1016,Hale 215,6,2026-08-27,Thursday,15:00,17:00,2,3,Faculty,Meeting,yes
+SR-1017,Hale 214,6,2026-08-27,Thursday,16:00,18:00,2,6,Undergraduate,Presentation practice,no
+SR-1018,Hale 221,12,2026-08-27,Thursday,16:00,18:00,2,7,Undergraduate,Group project,yes
+SR-1019,Hale 211,4,2026-08-27,Thursday,17:00,19:00,2,3,Graduate,Meeting,yes
+SR-1020,Hale 219,8,2026-08-27,Thursday,17:00,19:00,2,8,Faculty,Exam review,yes
+SR-1021,Hale 211,4,2026-08-27,Thursday,18:00,20:00,2,4,Undergraduate,Study session,yes
+SR-1022,Hale 218,8,2026-08-28,Friday,11:00,13:00,2,4,Graduate,Tutoring,yes
+SR-1023,Hale 210,4,2026-08-28,Friday,13:00,15:00,2,4,Undergraduate,Meeting,yes
+SR-1024,Hale 214,6,2026-08-28,Friday,13:00,15:00,2,4,Staff,Group project,yes
+SR-1025,Hale 221,12,2026-08-28,Friday,14:00,16:00,2,6,Staff,Study session,yes
+SR-1026,Hale 214,6,2026-08-28,Friday,17:00,19:00,2,3,Undergraduate,Tutoring,yes
+SR-1027,Hale 211,4,2026-08-28,Friday,18:00,20:00,2,3,Staff,Meeting,yes
+SR-1028,Hale 219,8,2026-08-29,Saturday,09:00,12:00,3,8,Undergraduate,Tutoring,yes
+SR-1029,Hale 210,4,2026-08-29,Saturday,12:00,15:00,3,4,Graduate,Meeting,no
+SR-1030,Hale 211,4,2026-08-29,Saturday,13:00,15:00,2,2,Undergraduate,Group project,yes
+SR-1031,Hale 212,4,2026-08-29,Saturday,18:00,20:00,2,4,Undergraduate,Meeting,yes
+SR-1032,Hale 221,12,2026-08-29,Saturday,19:00,20:00,1,6,Graduate,Group project,yes
+SR-1033,Hale 215,6,2026-08-30,Sunday,11:00,13:00,2,6,Undergraduate,Presentation practice,yes
+SR-1034,Hale 212,4,2026-08-30,Sunday,15:00,18:00,3,2,Undergraduate,Group project,yes
+SR-1035,Hale 219,8,2026-08-30,Sunday,17:00,18:00,1,8,Graduate,Presentation practice,yes
+SR-1036,Hale 210,4,2026-08-31,Monday,08:00,10:00,2,3,Undergraduate,Study session,yes
+SR-1037,Hale 218,8,2026-08-31,Monday,13:00,15:00,2,8,Faculty,Meeting,no
+SR-1038,Hale 218,8,2026-08-31,Monday,14:00,16:00,2,4,Graduate,Study session,yes
+SR-1039,Hale 210,4,2026-08-31,Monday,16:00,17:00,1,3,Graduate,Group project,yes
+SR-1040,Hale 217,8,2026-08-31,Monday,16:00,18:00,2,8,Graduate,Presentation practice,yes
+SR-1041,Hale 215,6,2026-08-31,Monday,21:00,23:00,2,3,Faculty,Tutoring,yes
+SR-1042,Hale 210,4,2026-09-01,Tuesday,09:00,11:00,2,3,Undergraduate,Tutoring,yes
+SR-1043,Hale 217,8,2026-09-01,Tuesday,12:00,14:00,2,8,Graduate,Exam review,yes
+SR-1044,Hale 212,4,2026-09-01,Tuesday,14:00,17:00,3,4,Graduate,Tutoring,yes
+SR-1045,Hale 218,8,2026-09-01,Tuesday,17:00,18:00,1,7,Undergraduate,Study session,yes
+SR-1046,Hale 215,6,2026-09-02,Wednesday,10:00,13:00,3,6,Undergraduate,Presentation practice,yes
+SR-1047,Hale 217,8,2026-09-02,Wednesday,11:00,14:00,3,8,Undergraduate,Exam review,yes
+SR-1048,Hale 212,4,2026-09-02,Wednesday,14:00,16:00,2,3,Graduate,Exam review,yes
+SR-1049,Hale 210,4,2026-09-03,Thursday,09:00,10:00,1,4,Undergraduate,Exam review,no
+SR-1050,Hale 211,4,2026-09-03,Thursday,14:00,16:00,2,4,Undergraduate,Exam review,yes
+SR-1051,Hale 212,4,2026-09-03,Thursday,17:00,18:00,1,3,Undergraduate,Exam review,no
+SR-1052,Hale 214,6,2026-09-03,Thursday,17:00,18:00,1,5,Undergraduate,Meeting,yes
+SR-1053,Hale 214,6,2026-09-03,Thursday,19:00,21:00,2,5,Staff,Exam review,yes
+SR-1054,Hale 221,12,2026-09-03,Thursday,19:00,22:00,3,7,Graduate,Exam review,yes
+SR-1055,Hale 212,4,2026-09-04,Friday,10:00,11:00,1,3,Graduate,Meeting,yes
+SR-1056,Hale 219,8,2026-09-04,Friday,11:00,12:00,1,7,Undergraduate,Study session,yes
+SR-1057,Hale 220,12,2026-09-04,Friday,14:00,17:00,3,7,Graduate,Presentation practice,no
+SR-1058,Hale 212,4,2026-09-04,Friday,15:00,17:00,2,4,Undergraduate,Presentation practice,yes
+SR-1059,Hale 220,12,2026-09-05,Saturday,10:00,11:00,1,6,Undergraduate,Tutoring,yes
+SR-1060,Hale 220,12,2026-09-05,Saturday,18:00,20:00,2,9,Undergraduate,Exam review,yes
+SR-1061,Hale 210,4,2026-09-06,Sunday,15:00,17:00,2,2,Faculty,Tutoring,yes
+SR-1062,Hale 216,6,2026-09-07,Monday,10:00,12:00,2,6,Graduate,Meeting,yes
+SR-1063,Hale 212,4,2026-09-07,Monday,13:00,15:00,2,3,Graduate,Exam review,no
+SR-1064,Hale 217,8,2026-09-07,Monday,14:00,16:00,2,8,Undergraduate,Exam review,yes
+SR-1065,Hale 219,8,2026-09-07,Monday,14:00,15:00,1,4,Undergraduate,Exam review,yes
+SR-1066,Hale 219,8,2026-09-07,Monday,16:00,17:00,1,5,Undergraduate,Tutoring,yes
+SR-1067,Hale 220,12,2026-09-08,Tuesday,17:00,19:00,2,8,Graduate,Exam review,yes
+SR-1068,Hale 221,12,2026-09-08,Tuesday,17:00,18:00,1,7,Undergraduate,Meeting,yes
+SR-1069,Hale 211,4,2026-09-08,Tuesday,19:00,22:00,3,2,Faculty,Exam review,yes
+SR-1070,Hale 215,6,2026-09-08,Tuesday,19:00,20:00,1,6,Graduate,Exam review,no
+SR-1071,Hale 218,8,2026-09-09,Wednesday,11:00,12:00,1,5,Graduate,Study session,yes
+SR-1072,Hale 218,8,2026-09-09,Wednesday,11:00,12:00,1,6,Graduate,Study session,yes
+SR-1073,Hale 221,12,2026-09-09,Wednesday,13:00,16:00,3,12,Undergraduate,Tutoring,no
+SR-1074,Hale 215,6,2026-09-09,Wednesday,15:00,16:00,1,6,Staff,Study session,no
+SR-1075,Hale 220,12,2026-09-09,Wednesday,15:00,16:00,1,11,Undergraduate,Exam review,yes
+SR-1076,Hale 221,12,2026-09-09,Wednesday,15:00,18:00,3,7,Undergraduate,Presentation practice,yes
+SR-1077,Hale 210,4,2026-09-09,Wednesday,16:00,17:00,1,2,Graduate,Presentation practice,yes
+SR-1078,Hale 211,4,2026-09-09,Wednesday,17:00,19:00,2,4,Graduate,Study session,yes
+SR-1079,Hale 214,6,2026-09-09,Wednesday,17:00,18:00,1,6,Staff,Group project,yes
+SR-1080,Hale 211,4,2026-09-10,Thursday,11:00,13:00,2,4,Undergraduate,Group project,yes
+SR-1081,Hale 212,4,2026-09-10,Thursday,12:00,13:00,1,4,Staff,Group project,yes
+SR-1082,Hale 221,12,2026-09-10,Thursday,12:00,13:00,1,6,Undergraduate,Tutoring,yes
+SR-1083,Hale 214,6,2026-09-10,Thursday,14:00,15:00,1,5,Staff,Tutoring,yes
+SR-1084,Hale 216,6,2026-09-10,Thursday,15:00,17:00,2,3,Undergraduate,Exam review,yes
+SR-1085,Hale 221,12,2026-09-10,Thursday,15:00,17:00,2,10,Undergraduate,Meeting,yes
+SR-1086,Hale 210,4,2026-09-10,Thursday,17:00,19:00,2,4,Undergraduate,Study session,yes
+SR-1087,Hale 216,6,2026-09-10,Thursday,18:00,20:00,2,6,Faculty,Tutoring,yes
+SR-1088,Hale 218,8,2026-09-10,Thursday,18:00,21:00,3,5,Undergraduate,Group project,yes
+SR-1089,Hale 213,6,2026-09-10,Thursday,19:00,22:00,3,5,Graduate,Tutoring,yes
+SR-1090,Hale 217,8,2026-09-10,Thursday,19:00,22:00,3,8,Undergraduate,Presentation practice,yes
+SR-1091,Hale 220,12,2026-09-10,Thursday,19:00,21:00,2,8,Graduate,Meeting,yes
+SR-1092,Hale 220,12,2026-09-11,Friday,17:00,19:00,2,10,Graduate,Tutoring,yes
+SR-1093,Hale 221,12,2026-09-11,Friday,17:00,19:00,2,12,Graduate,Study session,no
+SR-1094,Hale 210,4,2026-09-11,Friday,18:00,20:00,2,3,Undergraduate,Study session,yes
+SR-1095,Hale 219,8,2026-09-12,Saturday,10:00,13:00,3,8,Undergraduate,Presentation practice,yes
+SR-1096,Hale 213,6,2026-09-12,Saturday,13:00,15:00,2,5,Staff,Exam review,yes
+SR-1097,Hale 214,6,2026-09-12,Saturday,13:00,15:00,2,6,Undergraduate,Tutoring,yes
+SR-1098,Hale 211,4,2026-09-12,Saturday,19:00,21:00,2,3,Staff,Exam review,yes
+SR-1099,Hale 216,6,2026-09-13,Sunday,12:00,14:00,2,3,Undergraduate,Presentation practice,yes
+SR-1100,Hale 211,4,2026-09-13,Sunday,14:00,15:00,1,4,Undergraduate,Presentation practice,yes
+SR-1101,Hale 216,6,2026-09-13,Sunday,14:00,16:00,2,6,Staff,Tutoring,yes
+SR-1102,Hale 210,4,2026-09-14,Monday,14:00,17:00,3,3,Graduate,Presentation practice,yes
+SR-1103,Hale 212,4,2026-09-14,Monday,14:00,16:00,2,3,Undergraduate,Exam review,yes
+SR-1104,Hale 211,4,2026-09-14,Monday,17:00,19:00,2,4,Undergraduate,Tutoring,yes
+SR-1105,Hale 217,8,2026-09-14,Monday,17:00,18:00,1,7,Undergraduate,Tutoring,yes
+SR-1106,Hale 220,12,2026-09-14,Monday,20:00,23:00,3,12,Undergraduate,Tutoring,yes
+SR-1107,Hale 221,12,2026-09-15,Tuesday,16:00,18:00,2,11,Graduate,Study session,yes
+SR-1108,Hale 215,6,2026-09-15,Tuesday,18:00,20:00,2,6,Faculty,Tutoring,yes
+SR-1109,Hale 219,8,2026-09-15,Tuesday,19:00,21:00,2,7,Graduate,Meeting,yes
+SR-1110,Hale 220,12,2026-09-16,Wednesday,15:00,17:00,2,7,Undergraduate,Group project,yes
+SR-1111,Hale 218,8,2026-09-16,Wednesday,16:00,19:00,3,6,Graduate,Exam review,no
+SR-1112,Hale 220,12,2026-09-16,Wednesday,19:00,21:00,2,8,Graduate,Study session,yes
+SR-1113,Hale 217,8,2026-09-16,Wednesday,20:00,23:00,3,6,Undergraduate,Group project,yes
+SR-1114,Hale 220,12,2026-09-17,Thursday,12:00,14:00,2,10,Graduate,Study session,yes
+SR-1115,Hale 220,12,2026-09-17,Thursday,12:00,14:00,2,9,Undergraduate,Exam review,yes
+SR-1116,Hale 214,6,2026-09-17,Thursday,14:00,15:00,1,3,Undergraduate,Exam review,no
+SR-1117,Hale 215,6,2026-09-17,Thursday,17:00,18:00,1,3,Undergraduate,Meeting,yes
+SR-1118,Hale 213,6,2026-09-18,Friday,14:00,16:00,2,3,Undergraduate,Presentation practice,no
+SR-1119,Hale 211,4,2026-09-18,Friday,15:00,17:00,2,3,Undergraduate,Tutoring,yes
+SR-1120,Hale 211,4,2026-09-18,Friday,18:00,20:00,2,3,Undergraduate,Study session,yes
