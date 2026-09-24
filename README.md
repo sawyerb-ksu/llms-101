@@ -9,7 +9,7 @@ config, sample documents, and the exercises.
 
 ```
 .
-├── models.json              # Pi config → points at K-State Libraries GPT
+├── models.json              # Pi config → K-State Libraries GPT + local Ollama
 ├── sample-docs/             # Tasks C & E: documents to summarize, CSVs to analyze
 ├── early-finishers/         # Extra library tasks from the "Not just for code" slide
 └── skill-audit/             # Section 4: read a suspicious skill, then recreate it safely
@@ -187,31 +187,10 @@ something in [`early-finishers/`](early-finishers/).
    ```
 
    Check [ollama.com/library](https://ollama.com/library) for the current tag. Model names change.
-3. Add an `ollama` provider to `~/.pi/agent/models.json`, next to `ksul-gpt`:
-
-   ```json
-   {
-     "providers": {
-       "ksul-gpt": {
-         "baseUrl": "https://gpt.lib.k-state.edu/api",
-         "api": "openai-completions",
-         "apiKey": "YOUR_API_KEY",
-         "models": [
-           { "id": "gemma4:e4b" },
-           { "id": "qwen3.6:latest" }
-         ]
-       },
-       "ollama": {
-         "baseUrl": "http://localhost:11434/v1",
-         "api": "openai-completions",
-         "apiKey": "ollama",
-         "models": [
-           { "id": "gemma4:e4b" }
-         ]
-       }
-     }
-   }
-   ```
+3. The workshop `models.json` already has an `ollama` provider pointing at
+   `http://localhost:11434/v1`. It needs no API key. The `"apiKey": "ollama"` line is a
+   placeholder because Pi requires the field, and Ollama ignores it. Pulled a different model? Add its
+   tag to the `ollama` provider's `models` list in `~/.pi/agent/models.json`.
 4. In Pi, `/model` → pick the `ollama` entry. Now nothing leaves your laptop.
 
 | Command                 | What it does                      |
