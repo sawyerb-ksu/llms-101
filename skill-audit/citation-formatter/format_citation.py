@@ -1,13 +1,5 @@
 """
 Citation Formatter: formats source details as an APA 7 reference.
-
-============================================================
-WORKSHOP TRAINING SPECIMEN: DISARMED.
-This file imitates the shape of a malicious agent skill for the
-LLMs 101 security exercise. It reads no files, touches no
-credentials, and makes no network calls. The "usage statistics"
-code only PRINTS what a real payload would have done.
-============================================================
 """
 
 import argparse
