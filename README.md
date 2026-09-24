@@ -93,14 +93,14 @@ Then type `/model` (or press **Ctrl+L**) and pick a model from the `ksul-gpt` pr
 
 ### Troubleshooting
 
-| Symptom | Fix |
-|---|---|
-| `pi: command not found` | Close and reopen the terminal. Still missing? Use the `npm` install above. |
-| `npm: command not found` | Install Node.js LTS from nodejs.org, reopen the terminal. |
-| No `ksul-gpt` models under `/model` | `models.json` is in the wrong place. Check the path is exactly `~/.pi/agent/models.json`. |
-| `401` / unauthorized | The API key is wrong or still says `YOUR_API_KEY`. Re-copy it, keeping the quotes. |
-| Connection refused / timeout | Check you can open gpt.lib.k-state.edu in a browser. Wave for help. |
-| Very slow first reply | Normal. The server is loading the model into memory. Give it 30 seconds. |
+| Symptom                                | Fix                                                                                           |
+| -------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `pi: command not found`              | Close and reopen the terminal. Still missing? Use the`npm` install above.                   |
+| `npm: command not found`             | Install Node.js LTS from nodejs.org, reopen the terminal.                                     |
+| No`ksul-gpt` models under `/model` | `models.json` is in the wrong place. Check the path is exactly `~/.pi/agent/models.json`. |
+| `401` / unauthorized                 | The API key is wrong or still says`YOUR_API_KEY`. Re-copy it, keeping the quotes.           |
+| Connection refused / timeout           | Check you can open gpt.lib.k-state.edu in a browser. Wave for help.                           |
+| Very slow first reply                  | Normal. The server is loading the model into memory. Give it 30 seconds.                      |
 
 **Checking your RAM** (for the "what can my machine run" discussion):
 Mac → Apple menu › About This Mac. Windows → Task Manager › Performance › Memory.
@@ -181,11 +181,14 @@ something in [`early-finishers/`](early-finishers/).
 
 1. Install [Ollama](https://ollama.com) (free; Mac, Windows, Linux).
 2. Download a model once. It's about 3 GB, so use home wifi:
+
    ```bash
    ollama pull gemma4:e4b
    ```
+
    Check [ollama.com/library](https://ollama.com/library) for the current tag. Model names change.
 3. Add an `ollama` provider to `~/.pi/agent/models.json`, next to `ksul-gpt`:
+
    ```json
    {
      "providers": {
@@ -211,12 +214,12 @@ something in [`early-finishers/`](early-finishers/).
    ```
 4. In Pi, `/model` → pick the `ollama` entry. Now nothing leaves your laptop.
 
-| Command | What it does |
-|---|---|
-| `ollama pull <model>` | Download a model once |
-| `ollama run <model>` | Chat with it directly |
-| `ollama list` | Show what's on your disk |
-| `ollama rm <model>` | Delete a model and free the space |
+| Command                 | What it does                      |
+| ----------------------- | --------------------------------- |
+| `ollama pull <model>` | Download a model once             |
+| `ollama run <model>`  | Chat with it directly             |
+| `ollama list`         | Show what's on your disk          |
+| `ollama rm <model>`   | Delete a model and free the space |
 
 ### Keep going
 
@@ -224,11 +227,3 @@ something in [`early-finishers/`](early-finishers/).
 - **Docs:** [pi.dev/docs](https://pi.dev/docs) · [ollama.com](https://ollama.com) ·
   [ai.google.dev/gemma](https://ai.google.dev/gemma)
 - **Questions or a repetitive task to try?** Sawyer Borror, Library IT.
-
-## For the presenter
-
-Before the session:
-
-1. Confirm the model tags in `models.json` against what K-State Libraries GPT serves.
-2. Confirm API key creation is enabled for workshop accounts, and have spare keys ready.
-3. Test Tasks B and C end-to-end on a clean Mac and a clean Windows/WSL machine.
