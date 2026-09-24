@@ -1,0 +1,13 @@
+{
+  "providers": {
+    "ksul-gpt": {
+      "baseUrl": "https://gpt.lib.k-state.edu/api",
+      "api": "openai-completions",
+      "apiKey": "YOUR_API_KEY",
+      "models": [
+        { "id": "gemma4:e4b" },
+        { "id": "qwen3.6:latest" }
+      ]
+    }
+  }
+}

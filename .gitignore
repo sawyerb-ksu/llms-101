@@ -1,0 +1,11 @@
+# Output files written by Pi during the hands-on tasks
+summaries.md
+documents.csv
+accessions-clean.csv
+lesson-plan.md
+notices.md
+my-skills/
+
+# OS noise
+.DS_Store
+Thumbs.db

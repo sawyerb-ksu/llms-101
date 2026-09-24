@@ -1,0 +1,9 @@
+request_id,patron_first_name,patron_type,item_title,item_type,status,reason
+ILL-50211,Avery,Undergraduate,The Dust Bowl: An Agricultural and Social History,Book,fill,
+ILL-50214,Morgan,Graduate,Soil Microbiology Handbook (4th ed.),Book,deny,Owned locally - available on the 3rd floor
+ILL-50217,Casey,Faculty,Proceedings of the 1974 Great Plains Irrigation Conference,Book,deny,No lending library found after 3 rounds
+ILL-50220,Riley,Undergraduate,"Grain markets and rail rates, 1880-1910",Article,fill,
+ILL-50223,Jamie,Graduate,Complete season 2 of a streaming TV series,DVD,deny,Media requests outside our lending agreement
+ILL-50226,Taylor,Staff,Journal of Library Metadata vol. 18 issue 2,Article,fill,
+ILL-50229,Drew,Undergraduate,Required course textbook (current edition),Book,deny,Current required textbooks are not requested via ILL - check Course Reserves
+ILL-50232,Quinn,Faculty,Kansas Territorial Census microfilm reel 7,Microfilm,pending,
